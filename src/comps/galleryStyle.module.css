@@ -1,0 +1,112 @@
+html{
+  background-color:#2b2a33;
+  font-family:Cinzel,Spartan ,katin,sans-serif;
+
+    animation: fadeInAnimation ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+0%{
+  opacity: 0;
+}
+100%{
+  opacity: 1;
+}
+}
+.links{
+  margin:auto auto;
+  font-size: min(50px,5vw);
+  line-height: 2.5;
+  letter-spacing: .5em;
+  color: ghostwhite;
+  width: fit-content;
+
+}
+
+.flip:after{
+  display: inline-block;
+  transform: rotateY(180deg);
+  content: 'The Ant pond';
+}
+
+ .links:after{
+  display: inline-block;
+  transform: rotateY(180deg);
+  content: attr(test-value);
+
+  background-image:  linear-gradient(270deg, ghostwhite 0%,#2b2a33 95%);
+  background-clip: text;
+  color:transparent;
+}
+.links:hover::after{
+  content:"Gallery";
+  color:ghostwhite;
+}
+ .links:hover{
+  color:black;
+}
+.title-flip{
+  margin: auto auto;
+  padding: 1em 1em;
+  border-radius: 5px;
+  width: auto;
+  text-align: center;
+  width: fit-content;
+}
+#gallery-about{
+  font-style: oblique;
+
+  font-size:min(1rem,2vw);
+  color: #c7dbff;
+}
+.gallery-container{
+  background-color: transparent;
+  max-width: 1250px;
+  width: max(75%, 500px);
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 25em;
+  text-align: center;
+  grid-gap: 10px;
+
+}
+
+.gallery-images{
+  overflow: hidden;
+}
+@media(max-width:1000px){
+  .gallery-container{
+    grid-template-columns:1fr 1fr;
+    width: calc(100% - 100px);
+    grid-gap: 5px;
+
+  }
+}
+@media(max-width:650px){
+  .gallery-container{
+    grid-template-columns:1fr;
+    width: calc(100% - 50px);
+    grid-gap: 1px;
+
+  }
+}
+.each-img{
+  object-position: 50% 5%;
+  object-fit: cover ;
+  width: 100%;
+  height: 100%;
+}
+.nsfw{
+  filter: blur(12px);
+  overflow: hidden;
+
+}
+.nsfw:hover{
+  transition: .25s;
+  transition-delay: .1s;
+  filter: blur(0px);
+
+}

@@ -1,0 +1,56 @@
+html{
+  background-color:#2b2a33;
+  font-family:Spartan;
+
+    animation: fadeInAnimation ease 2.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+0%{
+  opacity: 0;
+}
+100%{
+  opacity: 1;
+}
+}
+hr{
+margin: 0 0 1cm 0;
+}
+a{
+  text-decoration: none;
+}
+.links{
+  margin:auto auto;
+  font-size: min(50px,4vw);
+  line-height: 2.5;
+  letter-spacing: .5em;
+  color: ghostwhite;
+  width: fit-content;  
+}
+
+ .links:after{
+  display: inline-block;
+  transform: rotateY(180deg);
+  content: attr(test-value);
+
+  background-image:  linear-gradient(270deg, ghostwhite 0%,#2b2a33 95%);
+  background-clip: text;
+  color:transparent;
+}
+.links:hover::after{
+  color:ghostwhite;
+}
+ .links:hover{
+  color:black;
+}
+.title-flip{
+  margin: auto auto;
+  padding: 1em 1em;
+  border-radius: 5px;
+  width: auto;
+  text-align: center;
+  width: fit-content;
+
+}
+
