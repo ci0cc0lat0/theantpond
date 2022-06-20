@@ -1,7 +1,7 @@
 export const phrases = [
     {
         name:"Testphrase",
-        caption:"f"
+        caption:""
     },
     {
         name:"It happens",
