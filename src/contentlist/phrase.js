@@ -1,6 +1,6 @@
 export const phrases = [
     {
-        name:"Testphrase",
+        name:"Give me time and I'll ask every question",
         caption:""
     },
     {
