@@ -1,7 +1,7 @@
 export const phrases = [
     {
         name:"Give me time and I'll ask every question",
-        caption:""
+        caption:"Often, I want to know everything. Far from obsession but still very much an influance on how I interact, what I ask, what I want to know"
     },
     {
         name:"It happens",
