@@ -13,7 +13,7 @@ const GalleryContainer = ({ myID, myClass }) => {
         <GalleryImage name="baddays.png" tag=""/>
         <GalleryImage name="FuckIfIKnow.png" tag=""/>
         <GalleryImage name="CebCock.png" tag="nsfw"/>
-        <GalleryImage name="CursedGrabNewBooba.png" tag="nsfw"/>
+        
         <GalleryImage name="How i hold my joystick.png" tag="nsfw"/>
         <GalleryImage name="Pasted image 20211118231633.png" tag=""/>
         <GalleryImage name="Pasted image 20211118231830.png" tag=""/>
