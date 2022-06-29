@@ -1,23 +1,31 @@
 export const phrases = [
     {
+        name:"Chess, checkers, and the game of Life",
+        caption:"Some people play checkers, some people play chess, but life plays us all - Rod"
+    },
+    {
+        name:"Stupid motivation",
+        caption:"More often than not, I get these crazy ideas.<br>These crazy ideas motivate me in stupid ways.<br>What matters is the end result, right?"
+    },
+    {
         name:"Give me time and I'll ask every question",
         caption:"Often, I want to know everything. Far from obsession but still very much an influance on how I interact, what I ask, what I want to know"
     },
     {
         name:"It happens",
-        caption:""
+        caption:"At the end of the day, thats all we can say"
     },
     {
         name:"nothing and nobody",
         caption:""
     },
     {
-        name:'Resolution of a higher opinion',
-        caption:"Its more than just you, but the strength behind what becomes of you. Not to triffle on toes, or hold a shadow over you, but to get the truth out with just a little push.<br> I apperciate all the words, every last one. Thank you all for your well fought fights and putting up with my prodding "
+        name:'The resolution to a higher opinion',
+        caption:"Its more than just you, but the strength behind what becomes of you. Not to triffle on toes, or hold a shadow over you, but to get the truth out with just a little push.<br> I apperciate all the words, every last one. Thank you all for your well fought fights"
     },
     {
         name:'A lack of unwelcome faces',
-        caption:"Is not you, but it is not necessarily me either"
+        caption:"It is not you, but it is not necessarily me either"
     },
     {
         name:'Opposing Forces',
@@ -25,7 +33,7 @@ export const phrases = [
     },
     {
         name:'Saturation',
-        caption:""
+        caption:"The market is saturated, and we are bored"
     },
     {
         name: 'Values',
@@ -33,7 +41,7 @@ export const phrases = [
     },
     {
         name: 'Turmoil',
-        caption: ''
+        caption: 'An interesting place to be in 2022'
     },
     {
         name: "Happy for you",
@@ -45,7 +53,7 @@ export const phrases = [
     },
     {
         name: "Ghost",
-        caption: "I see them all to often. Those who were tried and failed, those who were cared for and ignored, efforts put in and thanks spit out. I get irrational around them and I feel as if they act irrationally around me. While I am stuck in this plane, they wonder theirs without a second thought. Perhaps that is the hint; Continue without giving them a thought."
+        caption: "I see them all to often. Those who were tried and failed, those who were cared for and ignored, efforts put in and thanks spit out. I get irrational around them and I feel as if they act irrationally around me. While I am stuck in this plane, they wonder theirs without a second thought. Perhaps that is the hint; Continue without giving them a thought"
     },
     {
         name: "Means to an end",
@@ -53,19 +61,19 @@ export const phrases = [
     },
     {
         name: "Where are you now?",
-        caption: "I look at others from my past and wonder this. So many people I want to catch up with but nothing but ghost and misplaced meaning wait there"
+        caption: "I look at others from my past and wonder this. So many ghost lingering without any way back home"
     },
     {
         name: "Apathy be the death of me",
-        caption: "Taken from TheActMan about video games, when I self reflect, I feel that phrase can be used to describe me. A lot of my life I have been apathetic to how I approach things. Has it landed me in a terrible spot? No. Will it evenutally? probably."
+        caption: "Taken from TheActMan about video games: when I self reflect, I feel that phrase can be used to describe me. A lot of my life I have been apathetic to how I approach things. Has it landed me in a terrible spot? No. Will it evenutally? probably."
     },
     {
         name: "Inspiration",
-        caption: "It was then I had inspiration. Misguided and nonsensical, something about 'it' left me wanting. I can work towards it. I can achieve it. In the grand scheme of things, it is rather silly."
+        caption: ""
     },
     {
         name: "Why Do I Hesitate",
-        caption: ""
+        caption: "lmao stupid fucking mistakes"
     },
     {
         name: "The feeling is mutual",
@@ -73,11 +81,11 @@ export const phrases = [
     },
     {
         name: "...---...",
-        caption: ""
+        caption: "help"
     },
     {
         name: "Melanhap",
-        caption: ""
+        caption: "I wonder what happened to you"
     },
     {
         name: "Contrived smiles and a bill of goods",
@@ -89,7 +97,7 @@ export const phrases = [
     },
     {
         name: "She likes to talk",
-        caption: "Funnily enough, she could talk that talk, but couldn't walk that walk. People <strike>rarely</strike> neglect to ask about others"
+        caption: "Funnily enough, she could talk that talk, but couldn't walk that walk. People <strike>shouldn't</strike> neglect to ask about others"
     },
     {
         name: "I'm not sure what I'm looking for",
@@ -109,7 +117,7 @@ export const phrases = [
     },
     {
         name: 'Ashley\'s safety',
-        caption: ""
+        caption: "I hope you are all safe"
     },
     {
         name: 'What if wonders',
@@ -125,15 +133,15 @@ export const phrases = [
     },
     {
         name: 'You\'re one to talk',
-        caption: ""
+        caption: "???"
     },
     {
         name: 'Someone to talk to',
-        caption: "We all look for that person. Often some are lucky enough to find that person. They stay, they care, they listen. Other times they are present, yet invisible, noticed but silent. Indeed it is a <strike>thankless job.</strike>"
+        caption: "A <strike>thankless job</strike> indeed, but when that person is found, they mean more than anything in the world. "
     },
     {
         name: 'I am not sure why we have to keep doing this shit',
-        caption: ""
+        caption: "Nothing but a joke"
     },
     {
         name: 'I dont know enough',
