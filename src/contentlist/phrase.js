@@ -1,7 +1,7 @@
 export const phrases = [
     {
         name:"Chess, checkers, and the game of Life",
-        caption:"Some people play checkers, some people play chess, but life plays us all - Rod"
+        caption:"Some people play checkers, some people play chess, but life plays us all - Rod "
     },
     {
         name:"Stupid motivation",
