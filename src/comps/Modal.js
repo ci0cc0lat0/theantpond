@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-import closer from '../pages/styleList.module.css'
 const modalStyle = {
     maxWidth:'40%',
     minWidth:'max(20%, 300px)',
@@ -39,7 +38,7 @@ export default function Modal({ open,children,onClose }) {
           }}
          style={modalStyle}>
             <p dangerouslySetInnerHTML={htmlConvert()}></p>
-            <span className={`${closer['close']}`} onClick={onClose}>&times;</span>
+            <span className='close'onClick={onClose}>&times;</span>
         </div>
         </div>
     </>,

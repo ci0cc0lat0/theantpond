@@ -1,7 +1,6 @@
 import React,{useState} from 'react'
 import Header from '../comps/Header'
 import { Link } from 'react-router-dom'
-import ListStyle from './styleList.module.css'
 import ListPhrase from '../comps/ListPhrase'
 import {phrases} from '../contentlist/phrase'
 import Modal from '../comps/Modal'
@@ -14,10 +13,10 @@ const List = () => {
 
   return (
     <>
-      <div className={`${ListStyle['title-flip']}`}>
+      <div className='title-flip'>
         <Link to="/"><Header heading="List" testValue="List" /></Link>
         <hr></hr>
-        <p id={ListStyle.listAbout}>More than a <strike>simple list</strike><br></br>Oldest at the bottom<br></br>* Marks a message</p>
+        <p id='listAbout'>More than a <strike>simple list</strike><br></br>Oldest at the bottom<br></br>* Marks a message</p>
       </div>
 
       

@@ -53,4 +53,53 @@ a{
   width: fit-content;
 
 }
+/* list css */
+#listAbout{
+  font-style: oblique;
+  font-size:min(1rem,2vw);
+  color: #c7dbff;
 
+}
+.my-list{
+color: #c7dbff;
+text-align: center;
+font-size: 20px;
+width: max-content;
+margin: 18.75px auto;
+
+}
+/* temp solution */
+.hover-effect::after{
+content:" *";
+}
+
+.hover-effect:hover,
+.hover-effect:focus{
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal-content {
+  background-color:  #BbBdBd ;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50vw; /* Could be more or less, depending on screen size */
+  text-align: center;
+}
+.close{
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus{
+  color: ghostwhite;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px){
+  
+  .my-list{
+    font-size: 3.4vw;
+  }
+}
