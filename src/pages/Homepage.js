@@ -17,7 +17,7 @@ const Homepage = () => {
         <Header heading="List" testValue='List'/>
       </Link>
       <Header heading="Records" testValue='Records'/>
-      <Header heading="Post" testValue='Post'/>
+      <Header heading="Pages" testValue='Pages'/>
     </div>
   )
 }

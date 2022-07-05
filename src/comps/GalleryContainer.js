@@ -1,10 +1,9 @@
 import React from 'react'
 import GalleryImage from './GalleryImage'
-import GalleryStyle from './galleryStyle.module.css'
 
 const GalleryContainer = ({ myID, myClass }) => {
   return (
-    <div id={myID} className={`${GalleryStyle[myClass]}`}>
+    <div id={myID} className={myClass}>
         <GalleryImage name="angst.png" tag=""/>
         <GalleryImage name="Classic Cutie.png" tag=""/>
         <GalleryImage name="SomePractice.png" tag=""/>
