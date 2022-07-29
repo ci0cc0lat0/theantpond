@@ -1,7 +1,11 @@
 export const phrases = [
     {
+        name:"Come August",
+        caption:"What makes us who we are? Is it the what we leave behind, how we are remembered, or what we believe in us to be our true selves.<br>They say the second best time to plant a tree is the present. What is the best time to become who we want to be?"
+    },
+    {
         name:"Chess, checkers, and the game of Life",
-        caption:"Some people play checkers, some people play chess, but life plays us all - Rod "
+        caption:"Some people play checkers, some people play chess, but life plays us all - Rod"
     },
     {
         name:"Stupid motivation",
